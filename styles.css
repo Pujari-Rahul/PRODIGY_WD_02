@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.stopwatch-container {
+    text-align: center;
+}
+
+.half-circle {
+    width: 200px;
+    height: 100px;
+    background: linear-gradient(to right, red, yellow);
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    margin-bottom: 20px;
+}
+
+#display {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
